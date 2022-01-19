@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Music player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="music-container">
+        <div class="top-bar">
+            <div class="name" id="name">Alone</div>
+            <div class="artist" id="artist">Alan Walker</div>
+        </div>
+        <div class="track-art"><img src="img/music-1.jpg"></div>
+        <audio src="audio/Alan_Walker-Alone.mp3"></audio>
+        <div class="progress-area">
+            <div class="seek_slider" id="seek_slider">
+            <div class="progress" id="progress"></div>
+            </div>
+            <div class="progress-duration">
+                <div id="current">0:00</div>
+                <div id="total-duration">2:43</div>
+            </div>
+        </div>
+        <div class="controls">
+            <i class="fa fa-backward" id="prev" title="Previous"></i>
+            <i class="fa fa-play" id="play" title="Play"></i>
+            <i class="fa fa-forward" id="next" title="Next"></i>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+      <script src="playlist.js"></script>
+</body>
+</html>
