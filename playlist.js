@@ -31,7 +31,7 @@ const songs=[
     },
     {
         name: "Tu Aake Dekhle",
-        artist:"King",
+        artist:"King sir",
         image:"music-6.jpg",
         path:"King_Tu_Aake_Dekhle.mp3"
         }
